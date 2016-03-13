@@ -4,7 +4,14 @@ class EquipoSonido :
 	public Producto
 {
 public:
-	EquipoSonido();
+	int getCantidadCds();
+	std::string toString();
+
+	void setCantidadCds(int);
+
+	EquipoSonido(double, double, int, std::string);
 	~EquipoSonido();
+private:
+	int cantidadCds;
 };
 

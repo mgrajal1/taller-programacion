@@ -3,11 +3,6 @@
 
 using namespace std;
 
-Televisor::Televisor()
-{
-}
-
-
 std::string Televisor::toString()
 {
 	return Producto::nombre + "\t" + to_string(tamano) + "\"\tCOL$" + to_string(Producto::coste);
