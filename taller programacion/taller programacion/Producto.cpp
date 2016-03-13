@@ -4,10 +4,11 @@
 using namespace std;
 
 
-Producto::Producto(double voltaje, double coste)
+Producto::Producto(double voltaje, double coste, std::string nombre)
 {
 	this->voltaje = voltaje;
 	this->coste = coste;
+	this->nombre = nombre;
 }
 
 

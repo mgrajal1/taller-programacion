@@ -14,7 +14,7 @@ public:
 	void setNombre(std::string);
 	~Producto();
 protected:
-	Producto(double, double);
+	Producto(double, double, std::string);
 	double voltaje;
 	double coste;
 	std::string nombre;

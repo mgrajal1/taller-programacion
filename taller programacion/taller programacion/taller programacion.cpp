@@ -8,7 +8,7 @@ producto, el porcentaje de descuento el cual será ingresado en el momento de gen
 factura se podrá imprimir tantas veces el usuario lo requiera
 */
 
-#include "stdafx.h"
+#include "stdafx.h"*-
 
 
 int main()
